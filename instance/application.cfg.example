@@ -1,0 +1,5 @@
+DEBUG = False
+SECRET_KEY = b'Zz5j2HfgM9FU4S5MSLpCqbCsbJqVcDIk'
+API_KEYS = {
+     'ttgo-bike1':'ZLuSn2s1dC4CMthbGwLu1vnrQtupSJB5'
+}
