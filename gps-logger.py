@@ -6,7 +6,9 @@ import os
 import os.path
 import re
 from datetime import datetime
-app = Flask(__name__, instance_relative_config=True)
+
+script_dir=os.path.dirname(os.path.realpath(__file__))
+app = Flask(__name__, instance_path=script_dir)
 app.config.from_pyfile('application.cfg')
 api = Api(app)
 
